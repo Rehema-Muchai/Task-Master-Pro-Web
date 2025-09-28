@@ -1,6 +1,4 @@
-/* =================================
-RESET & BASE STYLES
-================================= */
+/* =================================RESET & BASE STYLES================================= */
 * {
     margin: 0;
     padding: 0;
@@ -21,9 +19,7 @@ body {
     padding: 0 1rem;
 }
 
-/* =================================
-BUTTONS
-================================= */
+/* =================================BUTTONS================================= */
 .cta-button {
     background-color: #d80fd8;
     color: white;
@@ -60,9 +56,7 @@ BUTTONS
     color: white;
 }
 
-/* =================================
-HEADER
-================================= */
+/* =================================HEADER================================= */
 .header {
     background: white;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -99,9 +93,7 @@ HEADER
     color: #d80fd8;
 }
 
-/* =================================
-HERO SECTION
-================================= */
+/* =================================HERO SECTION================================= */
 .hero {
     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
     color: #ffffff;
@@ -131,9 +123,7 @@ HERO SECTION
     flex-wrap: wrap;
 }
 
-/* =================================
-FEATURES SECTION
-================================= */
+/* =================================FEATURES SECTION================================= */
 .features {
     padding: 4rem 0;
     background-color: #e6b6e6;
@@ -182,9 +172,7 @@ FEATURES SECTION
     line-height: 1.6;
 }
 
-/* =================================
-FOOTER
-================================= */
+/* =================================FOOTER================================= */
 .footer {
     background-color: #333;
     color: white;
@@ -205,9 +193,7 @@ FOOTER
     text-decoration: underline;
 }
 
-/* =================================
-RESPONSIVE DESIGN - MOBILE FIRST
-================================= */
+/* =================================RESPONSIVE DESIGN - MOBILE FIRST================================= */
 /* � Mobile: Default styles above work for mobile */
 /* � Large Mobile (576px and up) */
 @media (min-width: 576px) {
@@ -296,9 +282,7 @@ RESPONSIVE DESIGN - MOBILE FIRST
     }
 }
 
-/* =================================
-MOBILE NAVIGATION (Optional Enhancement)
-================================= */
+/* =================================MOBILE NAVIGATION (Optional Enhancement)================================= */
 /* Hide mobile menu toggle by default */
 .mobile-menu-toggle {
     display: none;
